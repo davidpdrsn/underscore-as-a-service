@@ -1,0 +1,9 @@
+<center>
+  <%= form_tag "#", data: { behavior: "underscore-form" } do %>
+    <%= text_field_tag :text, nil, placeholder: "Text to underscore", autofocus: true %>
+    <%= submit_tag "Go!", data: { disable_with: false } %>
+  <% end %>
+
+  <div class="output">
+  </div>
+</center>
