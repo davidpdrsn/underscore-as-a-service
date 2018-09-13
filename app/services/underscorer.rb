@@ -8,7 +8,7 @@ class Underscorer
   end
 
   def call
-    text.underscore
+    RustUnderscorer.underscore(text)
   end
 
   private
